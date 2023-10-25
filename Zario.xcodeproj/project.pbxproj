@@ -1,0 +1,1144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0924B10E0678D098395D5778 /* Pods_ZarioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5171EDB590FC4D01F31F66 /* Pods_ZarioTests.framework */; };
+		2F696C362AE6C3E100C7D868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C352AE6C3E100C7D868 /* AppDelegate.swift */; };
+		2F696C382AE6C3E100C7D868 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C372AE6C3E100C7D868 /* SceneDelegate.swift */; };
+		2F696C3A2AE6C3E100C7D868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C392AE6C3E100C7D868 /* ViewController.swift */; };
+		2F696C3F2AE6C3E200C7D868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F696C3E2AE6C3E200C7D868 /* Assets.xcassets */; };
+		2F696C422AE6C3E200C7D868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F696C402AE6C3E200C7D868 /* LaunchScreen.storyboard */; };
+		2F696C4D2AE6C3E200C7D868 /* ZarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C4C2AE6C3E200C7D868 /* ZarioTests.swift */; };
+		2F696C572AE6C3E200C7D868 /* ZarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C562AE6C3E200C7D868 /* ZarioUITests.swift */; };
+		2F696C592AE6C3E200C7D868 /* ZarioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C582AE6C3E200C7D868 /* ZarioUITestsLaunchTests.swift */; };
+		2F696C672AE6C47B00C7D868 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C662AE6C47B00C7D868 /* AppComponent.swift */; };
+		2F696C6E2AE6C4B900C7D868 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C6A2AE6C4B900C7D868 /* RootRouter.swift */; };
+		2F696C6F2AE6C4B900C7D868 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C6B2AE6C4B900C7D868 /* RootViewController.swift */; };
+		2F696C702AE6C4B900C7D868 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C6C2AE6C4B900C7D868 /* RootBuilder.swift */; };
+		2F696C712AE6C4B900C7D868 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F696C6D2AE6C4B900C7D868 /* RootInteractor.swift */; };
+		2F727DB42AE7149B004190E6 /* ScreenTimeSelectAppsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DB32AE7149B004190E6 /* ScreenTimeSelectAppsModel.swift */; };
+		2F727DBE2AE7525B004190E6 /* AppsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DBA2AE7525B004190E6 /* AppsListRouter.swift */; };
+		2F727DBF2AE7525B004190E6 /* AppsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DBB2AE7525B004190E6 /* AppsListViewController.swift */; };
+		2F727DC02AE7525B004190E6 /* AppsListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DBC2AE7525B004190E6 /* AppsListBuilder.swift */; };
+		2F727DC12AE7525B004190E6 /* AppsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DBD2AE7525B004190E6 /* AppsListInteractor.swift */; };
+		2F727DC32AE75284004190E6 /* AppsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DC22AE75284004190E6 /* AppsListView.swift */; };
+		2F727DC72AE75E07004190E6 /* ShieldAppStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DC62AE75E07004190E6 /* ShieldAppStream.swift */; };
+		2F727DC92AE75E0E004190E6 /* ShieldAppWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DC82AE75E0E004190E6 /* ShieldAppWorker.swift */; };
+		2F727DCB2AE80258004190E6 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DCA2AE80258004190E6 /* DateHelper.swift */; };
+		2F727DCD2AE80466004190E6 /* PieChartReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DCC2AE80466004190E6 /* PieChartReport.swift */; };
+		2F727DCF2AE826B8004190E6 /* WorklogReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DCE2AE826B8004190E6 /* WorklogReport.swift */; };
+		2F727DD42AE82886004190E6 /* DeviceActivityReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F727DD32AE82886004190E6 /* DeviceActivityReportView.swift */; };
+		2F94475C2AE6DD09007484FC /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447582AE6DD09007484FC /* MainRouter.swift */; };
+		2F94475D2AE6DD09007484FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447592AE6DD09007484FC /* MainViewController.swift */; };
+		2F94475E2AE6DD09007484FC /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94475A2AE6DD09007484FC /* MainBuilder.swift */; };
+		2F94475F2AE6DD09007484FC /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94475B2AE6DD09007484FC /* MainInteractor.swift */; };
+		2F9447612AE6DD11007484FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447602AE6DD11007484FC /* MainView.swift */; };
+		2F9447632AE6DD2A007484FC /* MainComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447622AE6DD2A007484FC /* MainComponents.swift */; };
+		2F9447662AE6DD6B007484FC /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447652AE6DD6B007484FC /* ScreenSize.swift */; };
+		2F9447682AE6DE91007484FC /* RootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447672AE6DE91007484FC /* RootComponent.swift */; };
+		2F94476C2AE6E59D007484FC /* PermissionsStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94476B2AE6E59D007484FC /* PermissionsStream.swift */; };
+		2F94476E2AE6E5A5007484FC /* PermissionsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94476D2AE6E5A5007484FC /* PermissionsWorker.swift */; };
+		2F9447742AE6F1A2007484FC /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447732AE6F1A2007484FC /* PermissionsView.swift */; };
+		2F9447762AE6F1C2007484FC /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447752AE6F1C2007484FC /* UIColor+Ext.swift */; };
+		2F9447792AE6F4DC007484FC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9447782AE6F4DC007484FC /* PrimaryButton.swift */; };
+		2F94477B2AE6F4EA007484FC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94477A2AE6F4EA007484FC /* Button.swift */; };
+		2F94477D2AE6F5BE007484FC /* ViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94477C2AE6F5BE007484FC /* ViewConfigurator.swift */; };
+		2F94477F2AE6F60A007484FC /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94477E2AE6F60A007484FC /* UIView+Ext.swift */; };
+		2F9FC5932AE8393E00264BF3 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9FC5922AE8393E00264BF3 /* DeviceActivity.framework */; };
+		2F9FC5962AE8393E00264BF3 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FC5952AE8393E00264BF3 /* DeviceActivityMonitorExtension.swift */; };
+		2F9FC59B2AE8393E00264BF3 /* DeviceActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2F9FC5912AE8393E00264BF3 /* DeviceActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		739B2D15BC54C317A5438776 /* Pods_Zario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE556CD1B5D6F1301E29BD63 /* Pods_Zario.framework */; };
+		A4429689304A6B1656391440 /* Pods_Zario_ZarioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1168C641A8E107F6C50818E3 /* Pods_Zario_ZarioUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F696C492AE6C3E200C7D868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F696C2A2AE6C3E100C7D868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F696C312AE6C3E100C7D868;
+			remoteInfo = Zario;
+		};
+		2F696C532AE6C3E200C7D868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F696C2A2AE6C3E100C7D868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F696C312AE6C3E100C7D868;
+			remoteInfo = Zario;
+		};
+		2F9FC5992AE8393E00264BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F696C2A2AE6C3E100C7D868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9FC5902AE8393E00264BF3;
+			remoteInfo = DeviceActivityExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F9FC59F2AE8393E00264BF3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F9FC59B2AE8393E00264BF3 /* DeviceActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1168C641A8E107F6C50818E3 /* Pods_Zario_ZarioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zario_ZarioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF687A97554DFDA7FB3CA66 /* Pods-ZarioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZarioTests.debug.xcconfig"; path = "Target Support Files/Pods-ZarioTests/Pods-ZarioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F696C322AE6C3E100C7D868 /* Zario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F696C352AE6C3E100C7D868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F696C372AE6C3E100C7D868 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F696C392AE6C3E100C7D868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F696C3E2AE6C3E200C7D868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F696C412AE6C3E200C7D868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F696C432AE6C3E200C7D868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F696C482AE6C3E200C7D868 /* ZarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F696C4C2AE6C3E200C7D868 /* ZarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZarioTests.swift; sourceTree = "<group>"; };
+		2F696C522AE6C3E200C7D868 /* ZarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F696C562AE6C3E200C7D868 /* ZarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZarioUITests.swift; sourceTree = "<group>"; };
+		2F696C582AE6C3E200C7D868 /* ZarioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZarioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F696C662AE6C47B00C7D868 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		2F696C6A2AE6C4B900C7D868 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		2F696C6B2AE6C4B900C7D868 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		2F696C6C2AE6C4B900C7D868 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		2F696C6D2AE6C4B900C7D868 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		2F727DB32AE7149B004190E6 /* ScreenTimeSelectAppsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeSelectAppsModel.swift; sourceTree = "<group>"; };
+		2F727DBA2AE7525B004190E6 /* AppsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListRouter.swift; sourceTree = "<group>"; };
+		2F727DBB2AE7525B004190E6 /* AppsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListViewController.swift; sourceTree = "<group>"; };
+		2F727DBC2AE7525B004190E6 /* AppsListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListBuilder.swift; sourceTree = "<group>"; };
+		2F727DBD2AE7525B004190E6 /* AppsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListInteractor.swift; sourceTree = "<group>"; };
+		2F727DC22AE75284004190E6 /* AppsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListView.swift; sourceTree = "<group>"; };
+		2F727DC62AE75E07004190E6 /* ShieldAppStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldAppStream.swift; sourceTree = "<group>"; };
+		2F727DC82AE75E0E004190E6 /* ShieldAppWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldAppWorker.swift; sourceTree = "<group>"; };
+		2F727DCA2AE80258004190E6 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		2F727DCC2AE80466004190E6 /* PieChartReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartReport.swift; sourceTree = "<group>"; };
+		2F727DCE2AE826B8004190E6 /* WorklogReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorklogReport.swift; sourceTree = "<group>"; };
+		2F727DD32AE82886004190E6 /* DeviceActivityReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityReportView.swift; sourceTree = "<group>"; };
+		2F9447582AE6DD09007484FC /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		2F9447592AE6DD09007484FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2F94475A2AE6DD09007484FC /* MainBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		2F94475B2AE6DD09007484FC /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		2F9447602AE6DD11007484FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2F9447622AE6DD2A007484FC /* MainComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainComponents.swift; sourceTree = "<group>"; };
+		2F9447652AE6DD6B007484FC /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		2F9447672AE6DE91007484FC /* RootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootComponent.swift; sourceTree = "<group>"; };
+		2F94476B2AE6E59D007484FC /* PermissionsStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsStream.swift; sourceTree = "<group>"; };
+		2F94476D2AE6E5A5007484FC /* PermissionsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsWorker.swift; sourceTree = "<group>"; };
+		2F94476F2AE6EE4B007484FC /* Zario.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zario.entitlements; sourceTree = "<group>"; };
+		2F9447732AE6F1A2007484FC /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		2F9447752AE6F1C2007484FC /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		2F9447782AE6F4DC007484FC /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		2F94477A2AE6F4EA007484FC /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		2F94477C2AE6F5BE007484FC /* ViewConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurator.swift; sourceTree = "<group>"; };
+		2F94477E2AE6F60A007484FC /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		2F9FC5912AE8393E00264BF3 /* DeviceActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9FC5922AE8393E00264BF3 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		2F9FC5952AE8393E00264BF3 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		2F9FC5972AE8393E00264BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9FC5982AE8393E00264BF3 /* DeviceActivityExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceActivityExtension.entitlements; sourceTree = "<group>"; };
+		55FFF9C49F5DC3FE1B42B0EB /* Pods-Zario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zario.debug.xcconfig"; path = "Target Support Files/Pods-Zario/Pods-Zario.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F71710C0159F82424BDEF9 /* Pods-Zario-ZarioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zario-ZarioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zario-ZarioUITests/Pods-Zario-ZarioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA07A7E93C76B02DF0E8D07 /* Pods-ZarioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZarioTests.release.xcconfig"; path = "Target Support Files/Pods-ZarioTests/Pods-ZarioTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA5171EDB590FC4D01F31F66 /* Pods_ZarioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZarioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5B4E5EEE380C9254AAD0A4 /* Pods-Zario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zario.release.xcconfig"; path = "Target Support Files/Pods-Zario/Pods-Zario.release.xcconfig"; sourceTree = "<group>"; };
+		E277A64671A8E1202C181577 /* Pods-Zario-ZarioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zario-ZarioUITests.release.xcconfig"; path = "Target Support Files/Pods-Zario-ZarioUITests/Pods-Zario-ZarioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE556CD1B5D6F1301E29BD63 /* Pods_Zario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F696C2F2AE6C3E100C7D868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739B2D15BC54C317A5438776 /* Pods_Zario.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F696C452AE6C3E200C7D868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0924B10E0678D098395D5778 /* Pods_ZarioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F696C4F2AE6C3E200C7D868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4429689304A6B1656391440 /* Pods_Zario_ZarioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FC58E2AE8393E00264BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9FC5932AE8393E00264BF3 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F696C292AE6C3E100C7D868 = {
+			isa = PBXGroup;
+			children = (
+				2F696C342AE6C3E100C7D868 /* Zario */,
+				2F696C4B2AE6C3E200C7D868 /* ZarioTests */,
+				2F696C552AE6C3E200C7D868 /* ZarioUITests */,
+				2F9FC5942AE8393E00264BF3 /* DeviceActivityExtension */,
+				2F696C332AE6C3E100C7D868 /* Products */,
+				613DFE39954B8FAC45F6E81B /* Pods */,
+				9511EBBF154B5F781968DA21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F696C332AE6C3E100C7D868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F696C322AE6C3E100C7D868 /* Zario.app */,
+				2F696C482AE6C3E200C7D868 /* ZarioTests.xctest */,
+				2F696C522AE6C3E200C7D868 /* ZarioUITests.xctest */,
+				2F9FC5912AE8393E00264BF3 /* DeviceActivityExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F696C342AE6C3E100C7D868 /* Zario */ = {
+			isa = PBXGroup;
+			children = (
+				2F94476F2AE6EE4B007484FC /* Zario.entitlements */,
+				2F696C652AE6C46300C7D868 /* AppMain */,
+				2F696C682AE6C4A200C7D868 /* Features */,
+				2F696C392AE6C3E100C7D868 /* ViewController.swift */,
+				2F9447692AE6E51E007484FC /* Workers */,
+				2F9447642AE6DD5E007484FC /* Helpers */,
+				2F696C402AE6C3E200C7D868 /* LaunchScreen.storyboard */,
+				2F9447772AE6F4CB007484FC /* LayoutGuides */,
+				2F696C432AE6C3E200C7D868 /* Info.plist */,
+			);
+			path = Zario;
+			sourceTree = "<group>";
+		};
+		2F696C4B2AE6C3E200C7D868 /* ZarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F696C4C2AE6C3E200C7D868 /* ZarioTests.swift */,
+			);
+			path = ZarioTests;
+			sourceTree = "<group>";
+		};
+		2F696C552AE6C3E200C7D868 /* ZarioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F696C562AE6C3E200C7D868 /* ZarioUITests.swift */,
+				2F696C582AE6C3E200C7D868 /* ZarioUITestsLaunchTests.swift */,
+			);
+			path = ZarioUITests;
+			sourceTree = "<group>";
+		};
+		2F696C652AE6C46300C7D868 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				2F696C372AE6C3E100C7D868 /* SceneDelegate.swift */,
+				2F696C352AE6C3E100C7D868 /* AppDelegate.swift */,
+				2F696C3E2AE6C3E200C7D868 /* Assets.xcassets */,
+				2F696C662AE6C47B00C7D868 /* AppComponent.swift */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		2F696C682AE6C4A200C7D868 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2F696C692AE6C4A600C7D868 /* Root */,
+				2F9447572AE6DCA5007484FC /* Main */,
+				2F727DB72AE75236004190E6 /* AppsList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2F696C692AE6C4A600C7D868 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				2F696C6A2AE6C4B900C7D868 /* RootRouter.swift */,
+				2F696C6B2AE6C4B900C7D868 /* RootViewController.swift */,
+				2F696C6C2AE6C4B900C7D868 /* RootBuilder.swift */,
+				2F696C6D2AE6C4B900C7D868 /* RootInteractor.swift */,
+				2F9447672AE6DE91007484FC /* RootComponent.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2F727DB72AE75236004190E6 /* AppsList */ = {
+			isa = PBXGroup;
+			children = (
+				2F727DD22AE82878004190E6 /* Views */,
+				2F727DB32AE7149B004190E6 /* ScreenTimeSelectAppsModel.swift */,
+				2F727DBA2AE7525B004190E6 /* AppsListRouter.swift */,
+				2F727DBB2AE7525B004190E6 /* AppsListViewController.swift */,
+				2F727DBC2AE7525B004190E6 /* AppsListBuilder.swift */,
+				2F727DBD2AE7525B004190E6 /* AppsListInteractor.swift */,
+			);
+			path = AppsList;
+			sourceTree = "<group>";
+		};
+		2F727DC52AE75DF2004190E6 /* ShieldApp */ = {
+			isa = PBXGroup;
+			children = (
+				2F727DC62AE75E07004190E6 /* ShieldAppStream.swift */,
+				2F727DC82AE75E0E004190E6 /* ShieldAppWorker.swift */,
+			);
+			path = ShieldApp;
+			sourceTree = "<group>";
+		};
+		2F727DD22AE82878004190E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F727DD32AE82886004190E6 /* DeviceActivityReportView.swift */,
+				2F727DC22AE75284004190E6 /* AppsListView.swift */,
+				2F727DCC2AE80466004190E6 /* PieChartReport.swift */,
+				2F727DCE2AE826B8004190E6 /* WorklogReport.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F9447572AE6DCA5007484FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F9447722AE6F0F1007484FC /* Views */,
+				2F9447582AE6DD09007484FC /* MainRouter.swift */,
+				2F9447592AE6DD09007484FC /* MainViewController.swift */,
+				2F94475A2AE6DD09007484FC /* MainBuilder.swift */,
+				2F94475B2AE6DD09007484FC /* MainInteractor.swift */,
+				2F9447602AE6DD11007484FC /* MainView.swift */,
+				2F9447622AE6DD2A007484FC /* MainComponents.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2F9447642AE6DD5E007484FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2F9447652AE6DD6B007484FC /* ScreenSize.swift */,
+				2F9447752AE6F1C2007484FC /* UIColor+Ext.swift */,
+				2F727DCA2AE80258004190E6 /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2F9447692AE6E51E007484FC /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				2F727DC52AE75DF2004190E6 /* ShieldApp */,
+				2F94476A2AE6E58B007484FC /* Permissions */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		2F94476A2AE6E58B007484FC /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				2F94476B2AE6E59D007484FC /* PermissionsStream.swift */,
+				2F94476D2AE6E5A5007484FC /* PermissionsWorker.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		2F9447722AE6F0F1007484FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F9447732AE6F1A2007484FC /* PermissionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F9447772AE6F4CB007484FC /* LayoutGuides */ = {
+			isa = PBXGroup;
+			children = (
+				2F9447782AE6F4DC007484FC /* PrimaryButton.swift */,
+				2F94477A2AE6F4EA007484FC /* Button.swift */,
+				2F94477C2AE6F5BE007484FC /* ViewConfigurator.swift */,
+				2F94477E2AE6F60A007484FC /* UIView+Ext.swift */,
+			);
+			path = LayoutGuides;
+			sourceTree = "<group>";
+		};
+		2F9FC5942AE8393E00264BF3 /* DeviceActivityExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2F9FC5952AE8393E00264BF3 /* DeviceActivityMonitorExtension.swift */,
+				2F9FC5972AE8393E00264BF3 /* Info.plist */,
+				2F9FC5982AE8393E00264BF3 /* DeviceActivityExtension.entitlements */,
+			);
+			path = DeviceActivityExtension;
+			sourceTree = "<group>";
+		};
+		613DFE39954B8FAC45F6E81B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55FFF9C49F5DC3FE1B42B0EB /* Pods-Zario.debug.xcconfig */,
+				CA5B4E5EEE380C9254AAD0A4 /* Pods-Zario.release.xcconfig */,
+				A2F71710C0159F82424BDEF9 /* Pods-Zario-ZarioUITests.debug.xcconfig */,
+				E277A64671A8E1202C181577 /* Pods-Zario-ZarioUITests.release.xcconfig */,
+				2BF687A97554DFDA7FB3CA66 /* Pods-ZarioTests.debug.xcconfig */,
+				ABA07A7E93C76B02DF0E8D07 /* Pods-ZarioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9511EBBF154B5F781968DA21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE556CD1B5D6F1301E29BD63 /* Pods_Zario.framework */,
+				1168C641A8E107F6C50818E3 /* Pods_Zario_ZarioUITests.framework */,
+				BA5171EDB590FC4D01F31F66 /* Pods_ZarioTests.framework */,
+				2F9FC5922AE8393E00264BF3 /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F696C312AE6C3E100C7D868 /* Zario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F696C5C2AE6C3E200C7D868 /* Build configuration list for PBXNativeTarget "Zario" */;
+			buildPhases = (
+				5B2DB4EC86257ABD99F3E524 /* [CP] Check Pods Manifest.lock */,
+				2F696C2E2AE6C3E100C7D868 /* Sources */,
+				2F696C2F2AE6C3E100C7D868 /* Frameworks */,
+				2F696C302AE6C3E100C7D868 /* Resources */,
+				42DEECFB3435A056655253F7 /* [CP] Embed Pods Frameworks */,
+				2F9FC59F2AE8393E00264BF3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9FC59A2AE8393E00264BF3 /* PBXTargetDependency */,
+			);
+			name = Zario;
+			productName = Zario;
+			productReference = 2F696C322AE6C3E100C7D868 /* Zario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F696C472AE6C3E200C7D868 /* ZarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F696C5F2AE6C3E200C7D868 /* Build configuration list for PBXNativeTarget "ZarioTests" */;
+			buildPhases = (
+				5DD4BA3EEB851AE00682BB42 /* [CP] Check Pods Manifest.lock */,
+				2F696C442AE6C3E200C7D868 /* Sources */,
+				2F696C452AE6C3E200C7D868 /* Frameworks */,
+				2F696C462AE6C3E200C7D868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F696C4A2AE6C3E200C7D868 /* PBXTargetDependency */,
+			);
+			name = ZarioTests;
+			productName = ZarioTests;
+			productReference = 2F696C482AE6C3E200C7D868 /* ZarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F696C512AE6C3E200C7D868 /* ZarioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F696C622AE6C3E200C7D868 /* Build configuration list for PBXNativeTarget "ZarioUITests" */;
+			buildPhases = (
+				FEF1585F76346D38C5ED3B15 /* [CP] Check Pods Manifest.lock */,
+				2F696C4E2AE6C3E200C7D868 /* Sources */,
+				2F696C4F2AE6C3E200C7D868 /* Frameworks */,
+				2F696C502AE6C3E200C7D868 /* Resources */,
+				0A56CAF14B1A4DC6E95E3043 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F696C542AE6C3E200C7D868 /* PBXTargetDependency */,
+			);
+			name = ZarioUITests;
+			productName = ZarioUITests;
+			productReference = 2F696C522AE6C3E200C7D868 /* ZarioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2F9FC5902AE8393E00264BF3 /* DeviceActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9FC59C2AE8393E00264BF3 /* Build configuration list for PBXNativeTarget "DeviceActivityExtension" */;
+			buildPhases = (
+				2F9FC58D2AE8393E00264BF3 /* Sources */,
+				2F9FC58E2AE8393E00264BF3 /* Frameworks */,
+				2F9FC58F2AE8393E00264BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceActivityExtension;
+			productName = DeviceActivityExtension;
+			productReference = 2F9FC5912AE8393E00264BF3 /* DeviceActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F696C2A2AE6C3E100C7D868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F696C312AE6C3E100C7D868 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2F696C472AE6C3E200C7D868 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F696C312AE6C3E100C7D868;
+					};
+					2F696C512AE6C3E200C7D868 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F696C312AE6C3E100C7D868;
+					};
+					2F9FC5902AE8393E00264BF3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F696C2D2AE6C3E100C7D868 /* Build configuration list for PBXProject "Zario" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F696C292AE6C3E100C7D868;
+			productRefGroup = 2F696C332AE6C3E100C7D868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F696C312AE6C3E100C7D868 /* Zario */,
+				2F696C472AE6C3E200C7D868 /* ZarioTests */,
+				2F696C512AE6C3E200C7D868 /* ZarioUITests */,
+				2F9FC5902AE8393E00264BF3 /* DeviceActivityExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F696C302AE6C3E100C7D868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F696C422AE6C3E200C7D868 /* LaunchScreen.storyboard in Resources */,
+				2F696C3F2AE6C3E200C7D868 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F696C462AE6C3E200C7D868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F696C502AE6C3E200C7D868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FC58F2AE8393E00264BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A56CAF14B1A4DC6E95E3043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zario-ZarioUITests/Pods-Zario-ZarioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zario-ZarioUITests/Pods-Zario-ZarioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zario-ZarioUITests/Pods-Zario-ZarioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42DEECFB3435A056655253F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zario/Pods-Zario-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zario/Pods-Zario-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zario/Pods-Zario-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2DB4EC86257ABD99F3E524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zario-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD4BA3EEB851AE00682BB42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZarioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF1585F76346D38C5ED3B15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zario-ZarioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F696C2E2AE6C3E100C7D868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F727DC32AE75284004190E6 /* AppsListView.swift in Sources */,
+				2F9447662AE6DD6B007484FC /* ScreenSize.swift in Sources */,
+				2F696C3A2AE6C3E100C7D868 /* ViewController.swift in Sources */,
+				2F727DC12AE7525B004190E6 /* AppsListInteractor.swift in Sources */,
+				2F727DCF2AE826B8004190E6 /* WorklogReport.swift in Sources */,
+				2F727DD42AE82886004190E6 /* DeviceActivityReportView.swift in Sources */,
+				2F727DC92AE75E0E004190E6 /* ShieldAppWorker.swift in Sources */,
+				2F9447612AE6DD11007484FC /* MainView.swift in Sources */,
+				2F696C702AE6C4B900C7D868 /* RootBuilder.swift in Sources */,
+				2F696C6E2AE6C4B900C7D868 /* RootRouter.swift in Sources */,
+				2F727DB42AE7149B004190E6 /* ScreenTimeSelectAppsModel.swift in Sources */,
+				2F727DCB2AE80258004190E6 /* DateHelper.swift in Sources */,
+				2F9447682AE6DE91007484FC /* RootComponent.swift in Sources */,
+				2F727DC02AE7525B004190E6 /* AppsListBuilder.swift in Sources */,
+				2F94476C2AE6E59D007484FC /* PermissionsStream.swift in Sources */,
+				2F727DC72AE75E07004190E6 /* ShieldAppStream.swift in Sources */,
+				2F94475E2AE6DD09007484FC /* MainBuilder.swift in Sources */,
+				2F94477F2AE6F60A007484FC /* UIView+Ext.swift in Sources */,
+				2F727DBE2AE7525B004190E6 /* AppsListRouter.swift in Sources */,
+				2F727DCD2AE80466004190E6 /* PieChartReport.swift in Sources */,
+				2F9447742AE6F1A2007484FC /* PermissionsView.swift in Sources */,
+				2F696C6F2AE6C4B900C7D868 /* RootViewController.swift in Sources */,
+				2F9447632AE6DD2A007484FC /* MainComponents.swift in Sources */,
+				2F94476E2AE6E5A5007484FC /* PermissionsWorker.swift in Sources */,
+				2F696C672AE6C47B00C7D868 /* AppComponent.swift in Sources */,
+				2F696C362AE6C3E100C7D868 /* AppDelegate.swift in Sources */,
+				2F696C712AE6C4B900C7D868 /* RootInteractor.swift in Sources */,
+				2F696C382AE6C3E100C7D868 /* SceneDelegate.swift in Sources */,
+				2F94475C2AE6DD09007484FC /* MainRouter.swift in Sources */,
+				2F9447762AE6F1C2007484FC /* UIColor+Ext.swift in Sources */,
+				2F9447792AE6F4DC007484FC /* PrimaryButton.swift in Sources */,
+				2F94475D2AE6DD09007484FC /* MainViewController.swift in Sources */,
+				2F94477D2AE6F5BE007484FC /* ViewConfigurator.swift in Sources */,
+				2F94475F2AE6DD09007484FC /* MainInteractor.swift in Sources */,
+				2F727DBF2AE7525B004190E6 /* AppsListViewController.swift in Sources */,
+				2F94477B2AE6F4EA007484FC /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F696C442AE6C3E200C7D868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F696C4D2AE6C3E200C7D868 /* ZarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F696C4E2AE6C3E200C7D868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F696C592AE6C3E200C7D868 /* ZarioUITestsLaunchTests.swift in Sources */,
+				2F696C572AE6C3E200C7D868 /* ZarioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FC58D2AE8393E00264BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9FC5962AE8393E00264BF3 /* DeviceActivityMonitorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F696C4A2AE6C3E200C7D868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F696C312AE6C3E100C7D868 /* Zario */;
+			targetProxy = 2F696C492AE6C3E200C7D868 /* PBXContainerItemProxy */;
+		};
+		2F696C542AE6C3E200C7D868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F696C312AE6C3E100C7D868 /* Zario */;
+			targetProxy = 2F696C532AE6C3E200C7D868 /* PBXContainerItemProxy */;
+		};
+		2F9FC59A2AE8393E00264BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9FC5902AE8393E00264BF3 /* DeviceActivityExtension */;
+			targetProxy = 2F9FC5992AE8393E00264BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F696C402AE6C3E200C7D868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F696C412AE6C3E200C7D868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F696C5A2AE6C3E200C7D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F696C5B2AE6C3E200C7D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F696C5D2AE6C3E200C7D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FFF9C49F5DC3FE1B42B0EB /* Pods-Zario.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zario/Zario.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zario/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.Zario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F696C5E2AE6C3E200C7D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5B4E5EEE380C9254AAD0A4 /* Pods-Zario.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zario/Zario.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zario/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.Zario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F696C602AE6C3E200C7D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF687A97554DFDA7FB3CA66 /* Pods-ZarioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.ZarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zario";
+			};
+			name = Debug;
+		};
+		2F696C612AE6C3E200C7D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA07A7E93C76B02DF0E8D07 /* Pods-ZarioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.ZarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zario";
+			};
+			name = Release;
+		};
+		2F696C632AE6C3E200C7D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F71710C0159F82424BDEF9 /* Pods-Zario-ZarioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.ZarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zario;
+			};
+			name = Debug;
+		};
+		2F696C642AE6C3E200C7D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E277A64671A8E1202C181577 /* Pods-Zario-ZarioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.ZarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zario;
+			};
+			name = Release;
+		};
+		2F9FC59D2AE8393E00264BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeviceActivityExtension/DeviceActivityExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceActivityExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeviceActivityExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.Zario.DeviceActivityExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F9FC59E2AE8393E00264BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeviceActivityExtension/DeviceActivityExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 278QJ34EC9;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceActivityExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeviceActivityExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.mjkweber.Zario.DeviceActivityExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F696C2D2AE6C3E100C7D868 /* Build configuration list for PBXProject "Zario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F696C5A2AE6C3E200C7D868 /* Debug */,
+				2F696C5B2AE6C3E200C7D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F696C5C2AE6C3E200C7D868 /* Build configuration list for PBXNativeTarget "Zario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F696C5D2AE6C3E200C7D868 /* Debug */,
+				2F696C5E2AE6C3E200C7D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F696C5F2AE6C3E200C7D868 /* Build configuration list for PBXNativeTarget "ZarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F696C602AE6C3E200C7D868 /* Debug */,
+				2F696C612AE6C3E200C7D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F696C622AE6C3E200C7D868 /* Build configuration list for PBXNativeTarget "ZarioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F696C632AE6C3E200C7D868 /* Debug */,
+				2F696C642AE6C3E200C7D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9FC59C2AE8393E00264BF3 /* Build configuration list for PBXNativeTarget "DeviceActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9FC59D2AE8393E00264BF3 /* Debug */,
+				2F9FC59E2AE8393E00264BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F696C2A2AE6C3E100C7D868 /* Project object */;
+}

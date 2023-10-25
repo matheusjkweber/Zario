@@ -1,0 +1,6 @@
+framework module Pods_ZarioTests {
+  umbrella header "Pods-ZarioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
